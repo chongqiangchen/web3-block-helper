@@ -1,6 +1,6 @@
 {
-  "name": "block-helper",
-  "version": "0.0.1",
+  "name": "web3-block-helper",
+  "version": "0.0.2",
   "description": "help users quickly find blocks by date",
   "main": "index.js",
   "files": [
