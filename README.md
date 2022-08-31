@@ -8,8 +8,7 @@
     // install
     npm install block-helper
 
-    // use
-
+    // how to use
     const provider = ethers.providers.JsonRpcProvider(xxx);
 
     // default block diff timestamp 3s (bsc)
@@ -36,7 +35,7 @@
 **add**
 > referenc dayjs add
 
-*special uint*: 'block'
+*special unit*: 'block'
 
 ```
     // will returns dayjs instance
@@ -47,7 +46,7 @@
 **subtract**
 > referenc dayjs subtract
 
-*special uint*: 'block'
+*special unit*: 'block'
 
 ```
     // will returns dayjs instance
