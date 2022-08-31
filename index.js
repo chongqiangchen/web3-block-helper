@@ -71,19 +71,18 @@ class BlockHelper {
      * @returns {Promise<number>}
      */
     async now() {
-        return await provider.getBlockNumber();
+        return await this.provider.getBlockNumber();
     }
 
     /**
      * get current block timestamp
      * @param startBlock
      * @param endBlock
-     * @param provider
      * @returns {Promise<number>}
      */
-    async getDiffTimestamp(startBlock, endBlock, provider) {
-        const startTimestamp = (await provider.getBlock(startBlock)).timestamp;
-        const endTimestamp = (await provider.getBlock(endBlock)).timestamp;
+    async getDiffTimestamp(startBlock, endBlock) {
+        const startTimestamp = (await this.provider.getBlock(startBlock)).timestamp;
+        const endTimestamp = (await this.provider.getBlock(endBlock)).timestamp;
         return endTimestamp - startTimestamp;
     }
 
