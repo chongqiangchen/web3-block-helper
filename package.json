@@ -1,0 +1,27 @@
+{
+  "name": "block-helper",
+  "version": "0.0.1",
+  "description": "help users quickly find blocks by date",
+  "main": "index.js",
+  "files": [
+    "*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chongqiangchen/block-helper"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "web3",
+    "block",
+    "date",
+    "dayjs"
+  ],
+  "author": "daxiongya",
+  "license": "ISC",
+  "dependencies": {
+    "dayjs": "^1.11.5"
+  }
+}
