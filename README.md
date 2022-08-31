@@ -1,4 +1,4 @@
-## Block Helper
+## Web3 Block Helper
 
 > help users quickly find blocks by date
 
@@ -6,7 +6,7 @@
 
 ```
     // install
-    npm install block-helper
+    npm install web3-block-helper
 
     // how to use
     const provider = ethers.providers.JsonRpcProvider(xxx);
